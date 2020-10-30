@@ -1,0 +1,42 @@
+<div class="container">
+<div class="row">
+    <div class="col-md-4">
+        <app-perfil-lateral></app-perfil-lateral>
+    </div>
+
+    <div class="col-md-8">
+
+        <h3 class="text-center mb-4 text-monospace ">Como está indo na Generation</h3>
+     
+        <div class="form-group">
+            <label class="text-monospace" for="titulo">texto</label>
+            <input type="text" class="form-control" id="titulo" placeholder="Digite seu titulo aqui!">
+        </div>
+
+        <div class="form-group">
+            <label class="text-monospace" for="texto">texto</label>
+            <textarea class="form-control" placeholder="Digite seu texto aqui!" id="texto" cols="30" rows="3" ></textarea>
+        </div>
+
+        <div class="row d-flex align-itens-end">
+            <div class="col-md-6">
+                <div class="form-group m-0">
+                    <label class="text-monospace" for="tema">Escolha um tema ou <a routerlink="/cadastrar-tema">Cadastre um novo</a></label>
+                    <select name="tema" id="tema" class="form-control">
+                        <option >
+                            teste 123
+                        </option>
+                    </select>     
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-end">
+            <button type="button" class="btn btn-outline-info w-25">Publicar</button>
+        </div>
+    </div>
+
+</div>
+
+    
+</div>
