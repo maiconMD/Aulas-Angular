@@ -9,9 +9,10 @@ import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
 })
 export class FooterComponent implements OnInit {
 
-faFacebook = faFacebook
-faInstagram = faInstagram
-faLinkedin = faLinkedin
+  faFacebook = faFacebook
+  faInstagram = faInstagram
+  faLinkedin = faLinkedin
+  
   constructor() { }
 
   ngOnInit(): void {
