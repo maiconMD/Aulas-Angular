@@ -52,18 +52,21 @@ export class FeedComponent implements OnInit {
 
   findAllPostagens() {
 
-    this.postagemService.getAllPostagens().subscribe((resp: Postagem[]) => {this.listaPostagens = resp
+    this.postagemService.getAllPostagens().subscribe((resp: Postagem[]) => {
+      this.listaPostagens = resp
     })
 
   }
 
   findAllTemas()  {
 
-    this.temaService.getAllTemas().subscribe((resp: Tema[]) => {this.listaTemas = resp
+    this.temaService.getAllTemas().subscribe((resp: Tema[]) => { 
+      this.listaTemas = resp
     })
   }
   findByIdTema() { 
-  this.temaService.getByIdTema(this.idTema).subscribe((resp: Tema) => { this.tema = resp
+  this.temaService.getByIdTema(this.idTema).subscribe((resp: Tema) => { 
+    this.tema = resp
   })
   }
 

@@ -72,9 +72,9 @@
                                     </div>
                                     <div class="col-md-4 d-flex justify-content-end">
 
-                                        <button class="btn mr-3 btn-outline-info">Editar</button>
+                                        <button class="btn mr-3 btn-outline-info" [routerLink]="['/editar-post', item.id]">Editar</button>
                                         
-                                        <button class="btn ml-3 btn-outline-danger">Apagar</button>
+                                        <button class="btn ml-3 btn-outline-danger" [routerLink]="['/delete-post', item.id]">Apagar</button>
 
                                     </div>
                                 </div>
